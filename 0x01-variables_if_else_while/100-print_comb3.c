@@ -14,11 +14,12 @@ for (m = 49; m <= 57; n++)
 if (m > n)
 {
 putchar(n);
-pytchar(m);
+putchar(m);
 if ( n != 56 || m !=57)
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
